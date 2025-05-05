@@ -1,4 +1,3 @@
-
 Feature: Login
     Como um usuário
     Eu quero logar no site

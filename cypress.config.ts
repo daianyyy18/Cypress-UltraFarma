@@ -9,7 +9,7 @@ export default defineConfig({
   e2e: {
     defaultCommandTimeout: 10000,
     baseUrl: "https://hmg.ultrafarma.com.br/",
-    specPattern: "cypress/e2e/**/*.feature",
+    specPattern: "**/*.feature",
     supportFile: false, 
     async setupNodeEvents(
       on: Cypress.PluginEvents,
