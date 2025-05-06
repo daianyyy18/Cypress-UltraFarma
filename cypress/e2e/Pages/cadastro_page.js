@@ -3,7 +3,7 @@
 import CadastroElements from "../Elements/cadastro.js"
 const cadastroElements = new CadastroElements
 const url = Cypress.config("baseUrl")
-const validacao="Campo Obrigatório";
+
 
 class CadastroPages{
 

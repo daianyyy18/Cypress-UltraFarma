@@ -3,7 +3,7 @@ Feature: Login
     Eu quero logar no site
     Para que eu possa acessar o sistema
 
-Scenario Outline:  "<cenario>"
+Scenario Outline: Teste de login com "<cenario>"
 Given que eu queira acessar o site  
 When acesso a area de login
 When insiro meu "<login>" e "<senha>" 
